@@ -196,7 +196,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-indigo-600 hover:bg-indigo-700 py-3 sm:py-4 rounded-xl font-semibold tracking-wide transition transform hover:scale-[1.03] active:scale-95 shadow-lg shadow-indigo-500/20"
+              className="w-full bg-indigo-600 hover:bg-indigo-700 py-3 sm:py-4 rounded-xl font-semibold tracking-wide transition transform hover:scale-[1.03] active:scale-95 shadow-lg shadow-indigo-500/20 cursor-pointer"
             >
               {status === "loading" ? "Sending..." : "Send Message"}
             </button>
