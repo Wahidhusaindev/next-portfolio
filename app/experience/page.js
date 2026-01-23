@@ -61,7 +61,7 @@ const ExperienceSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         {/* SECTION TITLE */}
-        <header className="text-center mb-12 sm:mb-16">
+        <header className=" mb-12 sm:mb-16">
           <h2
             id="experience-heading"
             className="text-3xl sm:text-4xl md:text-5xl font-extrabold"
