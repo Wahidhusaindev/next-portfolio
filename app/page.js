@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "./_components/Navbar";
-
 import profileImg from "@/public/img.avif";
 import About from "./about/page";
 import Projects from "./projects/page";
@@ -17,11 +15,22 @@ export const metadata = {
     "Wahid Husain is a frontend-focused software developer specializing in React, Next.js, and modern UI engineering. Building scalable, high-performance web applications.",
   keywords: [
     "Wahid Husain",
-    "Frontend Developer",
+    "Wahid Husain Developer",
+    "Wahid Husain Pantnagar",
+    "Wahid Husain India",
+    "Wahid Husain Bareilly",
     "React Developer",
     "Next.js Developer",
     "JavaScript Developer",
     "Web Developer Portfolio",
+    "Wahid Husain Portfolio",
+    "Software Engineer",
+    "UI Engineer",
+    "Frontend Software Developer",
+    "Web Application Developer",
+    "Full-Stack Developer",
+    "Tech Portfolio",
+
   ],
   authors: [{ name: "Wahid Husain" }],
   creator: "Wahid Husain",
@@ -61,6 +70,7 @@ export const metadata = {
     canonical: "https://wahidhusain.vercel.app",
   },
 };
+
 
 export default function HomePage() {
   return (
@@ -102,6 +112,7 @@ export default function HomePage() {
               using React, Next.js, and component-driven UI systems. Currently
               expanding into full-stack engineering with API-first backends.
             </p>
+            
 
             {/* CTA */}
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">

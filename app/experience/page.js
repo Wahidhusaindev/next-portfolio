@@ -11,12 +11,12 @@ const experiences = [
       "Collaborated with senior developers to improve UI workflows and component architecture.",
       "Refactored reusable components to enhance maintainability and performance.",
     ],
-    tech: ["React", "Tailwind CSS", "JavaScript"],
+    tech: ["React", "Tailwind CSS", "JavaScript", "Git & GitHub"],
   },
   {
     role: "Web Developer (Independent Projects)",
     company: "Self-Driven",
-    period: "2023 – Present",
+    period: "2025 – Present",
     description: [
       "Designed and developed full-stack web applications using React, Node.js, and MongoDB.",
       "Built production-ready tools including ERP systems, quiz platforms, and internal dashboards.",
@@ -108,7 +108,7 @@ const ExperienceSection = () => {
 /* ----------------------------- */
 const ExperienceCard = ({ data }) => (
   <div
-    className="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-indigo-500/20 transition-transform hover:-translate-y-1"
+    className="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl  transition-transform"
     itemScope
     itemType="https://schema.org/WorkExperience"
   >
@@ -149,7 +149,7 @@ const ExperienceCard = ({ data }) => (
 /* ----------------------------- */
 const EducationCard = ({ data }) => (
   <div
-    className="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl hover:shadow-purple-500/20 transition-transform hover:-translate-y-1"
+    className="bg-gray-900 border border-gray-800 p-6 sm:p-8 rounded-2xl shadow-xl transition-transform"
     itemScope
     itemType="https://schema.org/EducationalOccupationalCredential"
   >

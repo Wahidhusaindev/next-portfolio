@@ -1,4 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import GSAPSmoothScroll from "./_GSAP/smoothScrool";
 import "./globals.css";
 import Footer from "./_components/Footer";
 import Navbar from "./_components/Navbar";
@@ -51,15 +52,18 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
       >
-        {/* <head>
+        <head>
           <meta
-      name="google-site-verification"
-      content="DQyj_cSD_k8dT_XGDgA0QtArjbM20QbLz0_b_s7MlS0"
-    />
-        </head> */}
-         <Navbar />
-        {children}
-        <Footer/>
+            name="google-site-verification"
+            content="DQyj_cSD_k8dT_XGDgA0QtArjbM20QbLz0_b_s7MlS0"
+          />
+        </head>
+        <Navbar />
+        <GSAPSmoothScroll>
+          {children}
+          <Footer />
+        </GSAPSmoothScroll>
+
       </body>
     </html>
   );
