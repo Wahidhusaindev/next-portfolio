@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import profileImg from "@/public/img.avif";
+import profileImg from "../public/img.avif";
 import About from "./about/page";
 import Projects from "./projects/page";
 import ExperienceSection from "./experience/page";
