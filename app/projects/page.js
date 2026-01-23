@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import FAQSection from "../_components/FAQSection";
 
 const Projects = () => {
   const projects = [
@@ -49,6 +50,7 @@ const Projects = () => {
   ];
 
   return (
+    <>
     <section
       id="projects"
       aria-labelledby="projects-heading"
@@ -148,6 +150,8 @@ const Projects = () => {
 
       </div>
     </section>
+    <FAQSection/>
+    </>
   );
 };
 
