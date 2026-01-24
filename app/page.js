@@ -5,6 +5,7 @@ import About from "./about/page";
 import Projects from "./projects/page";
 import ExperienceSection from "./experience/page";
 import Contact from "./contact/page";
+import FAQSection from "./_components/FAQSection";
 
 /* -------------------------------------------------- */
 /* SEO METADATA – HOME PAGE                           */
@@ -183,7 +184,9 @@ export default function HomePage() {
       <About />
       <Projects />
       <ExperienceSection />
+      <FAQSection />
       <Contact />
+      
     </>
   );
 }
