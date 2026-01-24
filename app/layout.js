@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import GSAPSmoothScroll from "./_GSAP/smoothScrool";
 import "./globals.css";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "./_components/Footer";
 import Navbar from "./_components/Navbar";
 
@@ -59,8 +60,10 @@ export default function RootLayout({ children }) {
           />
         </head>
         <Navbar />
+        
         <GSAPSmoothScroll>
           {children}
+          <SpeedInsights/>
           <Footer />
         </GSAPSmoothScroll>
 
